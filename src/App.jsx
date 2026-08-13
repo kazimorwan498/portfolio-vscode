@@ -4,7 +4,7 @@ import BlogPage from "./pages/BlogPage";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/portfolio-vscode">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<BlogPage />} />
